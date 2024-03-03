@@ -6,10 +6,7 @@ from msrest.authentication import BasicAuthentication
 import pprint
 #from bs4 import BeautifulSoup
 
-
-
 logger = logging.getLogger(__name__)
-
 
 class WorkItemApi:  
     
@@ -35,7 +32,6 @@ class WorkItemApi:
              logger.error('{}'.format(connErr))  
         except exceptions.RequestException as requestErr: 
              logger.error('{}'.format(requestErr))  
-
                       
                  
 class ProjectApi:  

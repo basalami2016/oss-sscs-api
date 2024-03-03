@@ -9,7 +9,6 @@ import time
 import datetime
 from ado.boards import WorkItemApi as worksItem
 
-
 logging.basicConfig(
     #level=logging.DEBUG  
     level=logging.INFO,
@@ -74,7 +73,7 @@ async def main():
           for infos in configInfo:   
             personal_access_token = infos['personal_access_token']
             organization_url =  infos['organization_url']                  
-            logging.info('\r\n  %s \r\n  %s  \r\n ',   personal_access_token ,  organization_url,)
+            #logging.info('\r\n  %s \r\n  %s  \r\n ',   personal_access_token ,  organization_url,)
                               
     async with asyncio.TaskGroup() as tg:    
         logger.info(f"Start at {time.strftime('%X')}")    

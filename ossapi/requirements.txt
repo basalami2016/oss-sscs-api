@@ -1,2 +1,7 @@
-azure-devops
-beautifulsoup4 4.12.3
+created virtual environment CPython3.11.8.final.0-64 in 1518ms
+  creator CPython3Posix(dest=/home/basalami/niqflex/oss-sscs-api/ossapi/requirements, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/basalami/.local/share/virtualenv)
+    added seed packages: pip==24.0, setuptools==69.1.1, wheel==0.42.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+azure-devops==7.1.0b4
+beautifulsoup4==4.12.3

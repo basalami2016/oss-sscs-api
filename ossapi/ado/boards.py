@@ -6,8 +6,6 @@ from msrest.authentication import BasicAuthentication
 import pprint
 #from bs4 import BeautifulSoup
 
-
-
 logger = logging.getLogger(__name__)
 
 

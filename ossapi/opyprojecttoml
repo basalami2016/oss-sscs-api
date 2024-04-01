@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "software-supply-chain-security"
+version = "0.0.1"
+authors = [
+  { name="Biliaminu Salami", email="basalami2009@gmail.com" },
+]
+description = "software supply chain security"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[project.scripts]
+ossapi = "ossapi:main"
+
